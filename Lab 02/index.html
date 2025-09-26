@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample HTML Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+
+  <form action="/submit" method="post">
+    
+    <!-- Text input -->
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+    <!-- Email input -->
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+    <!-- Password input -->
+    <label for="password">Password:</label><br>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <!-- Radio buttons -->
+    <label>Gender:</label><br>
+    <input type="radio" id="male" name="gender" value="male">
+    <label for="male">Male</label>
+    <input type="radio" id="female" name="gender" value="female">
+    <label for="female">Female</label><br><br>
+
+    <!-- Checkbox -->
+    <label>Interests:</label><br>
+    <input type="checkbox" id="coding" name="interest" value="coding">
+    <label for="coding">Coding</label>
+    <input type="checkbox" id="sports" name="interest" value="sports">
+    <label for="sports">Sports</label><br><br>
+
+    <!-- Dropdown -->
+    <label for="country">Country:</label><br>
+    <select id="country" name="country">
+      <option value="pakistan">Pakistan</option>
+      <option value="india">India</option>
+      <option value="usa">USA</option>
+      <option value="uk">UK</option>
+    </select><br><br>
+
+    <!-- Submit button -->
+    <input type="submit" value="Register">
+
+  </form>
+
+  <table border="1" cellpadding="10" cellspacing="0">
+    <caption>Student table Sample</caption>
+    <tr>
+        <th>Name</th>
+        <th>Father Name</th>
+        <th>Semester</th>
+    </tr>
+    <tr>
+        <td>Muhammad saleh</td>
+        <td >Zeenat ullah</td>
+        <td>4th</td>
+    </tr>
+     <tr>
+        <td>Muhammad ali</td>
+        <td rowspan="1"></td>
+        <td>4th</td>
+    </tr>
+     <tr>
+        <td>Muhammad umar</td>
+        <td>Jahangir khan</td>
+        <td>4th</td>
+    </tr>
+  </table>
+
+</body>
+</html>
